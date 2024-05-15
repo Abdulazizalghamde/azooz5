@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0097)file:///C:/Users/aboal/AppData/Local/Temp/qgis2web/qgis2web_2024_05_15-18_31_13_118363/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./index_files/ol.css">
+        <link rel="stylesheet" href="./index_files/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./index_files/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./index_files/qgis2web.css">
+        <style>
+        .ol-geocoder.gcd-gl-container {
+            top: 65px!important;
+            left: 8px!important;
+        }
+        .ol-touch .ol-geocoder.gcd-gl-container{
+            top: 80px!important;
+        }
+        .ol-geocoder .gcd-gl-btn:after{
+            display:none;
+        }
+        </style>
+<style>
+.search-layer {
+  top: 100px;
+  left: .5em;
+}
+.ol-touch .search-layer {
+  top: 130px;
+}
+</style>
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control button {
+            background-color: #f8f8f8 !important;
+            color: #000000 !important;
+            border-radius: 0px !important;
+        }
+        .ol-zoom, .geolocate, .gcd-gl-control .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 3px !important;
+        }
+        .ol-scale-line {
+            background: none !important;
+        }
+        .ol-scale-line-inner {
+            border: 2px solid #f8f8f8 !important;
+            border-top: none !important;
+            background: rgba(255, 255, 255, 0.5) !important;
+            color: black !important;
+        }
+        </style>
+        <link href="./index_files/ol-geocoder.min.css" rel="stylesheet">
+        <style>
+        #map {
+            width: 537px;
+            height: 492px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            
+        <div class="ol-viewport" style="position: relative; overflow: hidden; width: 100%; height: 100%;"><div class="ol-unselectable ol-layers" style="position: absolute; width: 100%; height: 100%; z-index: 0;"><div class="ol-layer" style="position: absolute; width: 100%; height: 100%;"><canvas width="806" height="738" style="position: absolute; left: 0px; transform-origin: left top; transform: matrix(0.666667, 0, 0, 0.666667, 0, 0);"></canvas></div><div class="ol-layer" style="position: absolute; width: 100%; height: 100%;"><canvas width="0" style="position: absolute; left: 0px; transform-origin: left top;"></canvas></div></div><div class="ol-overlaycontainer" style="position: absolute; z-index: 0; width: 100%; height: 100%; pointer-events: none;"></div><div class="ol-overlaycontainer-stopevent" style="position: absolute; z-index: 0; width: 100%; height: 100%; pointer-events: none;"><div class="ol-overlay-container ol-selectable" style="position: absolute; pointer-events: auto; display: none;"><div id="popup" class="ol-popup">
+                <a href="file:///C:/Users/aboal/AppData/Local/Temp/qgis2web/qgis2web_2024_05_15-18_31_13_118363/index.html#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div></div><div class="ol-zoom ol-unselectable ol-control" style="pointer-events: auto;"><button class="ol-zoom-in" type="button" title="Zoom in">+</button><button class="ol-zoom-out" type="button" title="Zoom out">−</button></div><div class="ol-rotate ol-unselectable ol-control ol-hidden" style="pointer-events: auto;"><button class="ol-rotate-reset" type="button" title="Reset rotation"><span class="ol-compass" style="transform: rotate(0rad);">⇧</span></button></div><div class="ol-attribution ol-unselectable ol-control ol-uncollapsible" style="pointer-events: auto;"><ul><li><a href="https://github.com/tomchadwin/qgis2web">qgis2web</a> · </li><li><a href="https://openlayers.org/">OpenLayers</a> · </li><li><a href="https://qgis.org/">QGIS</a></li><li> </li></ul><button type="button" title="Attributions"><span>i</span></button></div><div class="ol-unselectable ol-control layer-switcher shown" style="pointer-events: auto;"><button title="Layers"></button><div class="panel"><ul><li class="layer"><input type="checkbox" id="24c76aba-9edc-4c1a-9331-4e6f648e5d20"><label for="24c76aba-9edc-4c1a-9331-4e6f648e5d20">Neighborhoods_2015<br>    <img src="./index_files/Neighborhoods_2015_0_0.png"> ٠ - ٥٠٠<br>    <img src="./index_files/Neighborhoods_2015_0_1.png"> ٥٠٠ - ٣٠٠٠<br>    <img src="./index_files/Neighborhoods_2015_0_2.png"> ٣٠٠٠ - ١٠٠٠٠<br>    <img src="./index_files/Neighborhoods_2015_0_3.png"> ١٠٠٠٠ - ٢٠٠٠٠<br>    <img src="./index_files/Neighborhoods_2015_0_4.png"> ٢٠٠٠٠ - ٦٩٧٢٤<br>    <img src="./index_files/Neighborhoods_2015_0_5.png"> ٦٩٧٢٤ - ٨٣٦٦٨<br>    <img src="./index_files/Neighborhoods_2015_0_6.png"> ٨٣٦٦٨ - ٩٧٦١٣<br>    <img src="./index_files/Neighborhoods_2015_0_7.png"> ٩٧٦١٣ - ١١١٥٥٧<br>    <img src="./index_files/Neighborhoods_2015_0_8.png"> ١١١٥٥٧ - ١٢٥٥٠٢<br>    <img src="./index_files/Neighborhoods_2015_0_9.png"> ١٢٥٥٠٢ - ١٣٩٤٤٦<br></label></li></ul></div></div><div id="gcd-container" class="ol-geocoder gcd-gl-container" style="pointer-events: auto;">
+  <div class="gcd-gl-control ol-control">
+    <button type="button" id="gcd-button-control" class="gcd-gl-btn fa fa-search"></button>
+    <input type="text" id="gcd-input-query" class="gcd-gl-input" autocomplete="off" placeholder="Search for ...">
+    <a id="gcd-input-search" class="gcd-gl-search gcd-hidden"></a>
+  </div>
+  <ul class="gcd-gl-result"></ul>
+</div></div></div></div>
+        <script src="./index_files/qgis2web_expressions.js.تنزيل"></script>
+        <script src="./index_files/polyfills.js.تنزيل"></script>
+        <script src="./index_files/functions.js.تنزيل"></script>
+        <script src="./index_files/ol.js.تنزيل"></script>
+        <script src="./index_files/ol-layerswitcher.js.تنزيل"></script>
+        <script src="./index_files/ol-geocoder.js.تنزيل"></script>
+        <script src="./index_files/Neighborhoods_2015_0.js.تنزيل"></script>
+        <script src="./index_files/Neighborhoods_2015_0_style.js.تنزيل"></script>
+        <script src="./index_files/layers.js.تنزيل" type="text/javascript"></script> 
+        <script src="./index_files/Autolinker.min.js.تنزيل"></script>
+        <script src="./index_files/qgis2web.js.تنزيل"></script>
+    
+
+</body></html>
